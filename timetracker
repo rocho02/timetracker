@@ -2,4 +2,5 @@ PATH=/usr/lib/sysstat:/usr/sbin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # IMPORTANT: use your own username instead "rocho"
 # ask each workday between 07:00 - 18:00 every 15 min what i'm doing 
-*/15 07-18 * * 1-5 rocho /home/rocho/work/tools/timetracker/timetracker.sh
+15,45 07-18 * * 1-5 rocho /home/rocho/work/tools/timetracker/timetracker.sh
+*/5 07-18 * * 1-5 rocho /home/rocho/work/tools/timetracker/screentracker.sh
